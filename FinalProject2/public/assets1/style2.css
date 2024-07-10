@@ -1,0 +1,53 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.dropdown-sub-content {
+    top: 0;
+    left: 100%;
+}
+
+main {
+    padding: 20px;
+    margin-top: 70px;
+}
+
+h2 {
+    color: #003366;
+}
+
+.semester-selector {
+    margin: 20px 0;
+}
+
+.semester-selector button {
+    margin-right: 10px;
+    padding: 10px 20px;
+    background-color: #00509E;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.semester-selector button:hover {
+    background-color: #003366;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
